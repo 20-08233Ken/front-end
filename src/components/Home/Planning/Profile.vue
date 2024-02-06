@@ -3,10 +3,17 @@
         <section id ="profile-left" class=" pt-8" style="width: 75%;">
 
             <div class="pl-14">
-            <span>
+            <span class="d-flex align-center w-100 justify-space-between">
                 <h1 class="text-red-darken-4">
                     OFFICE OF 
                 </h1>
+
+                <v-btn class="text-none mr-8 rounded-circle" color="red-darken-4" elevation="0" stacked>
+                    <v-badge content="2" color="error">
+                        <v-icon>mdi-bell-outline</v-icon>
+                    </v-badge>
+                </v-btn>
+
             </span>
             <p>Campus-Central</p>
 
