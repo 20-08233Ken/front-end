@@ -18,13 +18,10 @@
     <div id="form1-main" class="w-100">
         <Header> </Header>
 
-        <v-card
-            class="d-flex flex-column mx-auto  mt-8 py-15 px-15"
-            id ="nav-card"
-        >
+   
             <Subnav2/>
 
-        </v-card>
+        
 
         <v-card
             id ="form1-card"

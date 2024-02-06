@@ -1,4 +1,8 @@
 <template>
+        <v-card
+            class="d-flex flex-column mx-auto pe-2 mt-8 py-15 px-15"
+            id ="nav-card"
+        >
     <h2 class="text-red-darken-4 mx-auto">Performance Result</h2>
     <p class="text-subtitle-1 text-grey-darken-1 mx-auto">Higher and Advance Education</p>
 
@@ -85,9 +89,14 @@
             </div>
 
     </v-card>
+</v-card>
 </template>
 
+
 <style scoped>
+    #nav-card{
+        width: 60%;
+    }
 #sub-title{
     white-space: nowrap; 
      width: 50%; 
@@ -117,41 +126,41 @@
 
     #img-1
     {
-        width: 7%;
+        width: 11%;
         margin: 0 .7rem;
     }
 
     
     #img-2
     {
-        width: 7%;
+        width: 11%;
         margin: 0 .7rem;
     }
 
 
     #img-3
     {
-        width: 4%;
+        width: 11%;
         margin: 0 .7rem;
     }
     #img-4
     {
-        width: 8%; 
+        width: 11%; 
         margin: 0 .7rem;
     }
     #img-5
     {
-        width: 7%;
+        width: 11%;
         margin: 0 .7rem;
     }
     #img-6
     {
-        width: 8%;
+        width:11%;
         margin: 0 .7rem;
     }
     #img-7
     {
-        width: 8%;
+        width: 11%;
         margin: 0 .7rem;
     }
 
