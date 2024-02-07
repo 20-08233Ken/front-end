@@ -17,7 +17,7 @@
                         <span class="w-100 " id ="nav-list">
                             <ul class="w-50 mx-10 d-flex justify-space-around text-subtitle-1"  style="list-style-type: none;">
                                 <li class="py-3">Profile</li>
-                                <li>Dashboard</li>
+                                <li> <router-link to ="/dashboard"  style="text-decoration: none; color: white"> Dashboard </router-link></li>
                                 <li>Dataset</li>
                                 <li>PBB</li>
                                 <li>Offices</li>
@@ -31,6 +31,7 @@
 
 <style>
 
+    
     #univ-logo{
         width: 3%;
         height: auto;
