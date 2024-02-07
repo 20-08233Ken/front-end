@@ -14,6 +14,8 @@ import Form6 from '../components/Home/Form/Form6.vue'
 import Form7 from '../components/Home/Form/Form7.vue'
 import Login from "../views/Login.vue"
 
+import PlanningDashboard from "../components/Home/Planning/Dashboard.vue"
+
 const router = createRouter ({
 
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +25,13 @@ const router = createRouter ({
             path:'/',
             name:'home',
             component:Home
+
+        }
+        ,
+        {
+            path:'/dashboard',
+            name:'dashboard',
+            component:PlanningDashboard
 
         }
         ,
