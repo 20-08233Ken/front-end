@@ -1,7 +1,10 @@
 <template>
     
-    <v-chart class="chart" :option="option" autoresize />
-    
+    <div style="width: 100%;flex-direction: column;overflow-x: auto;height: 100vh;">
+       <v-chart class="chart" :option="option" autoresize />
+    <div style="width: 101vw;">
+    </div>
+    </div>    
   </template>
   
   <script setup>
@@ -104,9 +107,10 @@
 .chart {
   /* height: 50rem; */
   
-  width: 100%;
+  width: 110rem;
+  height: 80vh;
   background-color: white;
-  padding: 4  rem 0;
+
 
 
  

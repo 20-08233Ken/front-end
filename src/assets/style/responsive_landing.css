@@ -1,0 +1,113 @@
+@media (max-width:1024px ) {
+
+    /* Section 1 */
+    /* Remove  image */
+    #PL_landing_sec1_p2{
+        display: none;
+    }
+    #PL_landing_sec1{
+        background-size: contain;
+    }
+
+   /* Change font color*/
+    #PL_landing_sec1 >:nth-child(4){
+        color: #EC061D;
+    }
+
+    #PL_landing_sec1 >:nth-child(5){
+            color: #EC061D;
+        }
+
+    /* Change the layout of Card */
+    .PL_landing_office_card {
+        gap: 0;
+    }
+    .PL_landing_office_card > h1{
+        width: 100%;
+         
+    }
+    .PL_landing_office_card > p{
+        display: none;
+        /* border: 1px solid red; */
+    }
+
+
+    /* Change layour of search Bar */
+    #PL_landing_search {
+        width: 100%;
+    }
+    #PL_landing_sec1 >:nth-child(2){
+        text-align: center;
+        margin: 5vh 0 2vh 0;
+    
+    }
+
+
+
+    /* ================================================ */
+
+    /* Section 2 */
+    #PL_section_2 > div{
+        flex-direction:column;
+        width: 100%;
+    }
+
+    #PL_section_2 > div > span:first-child{
+        width: 100%;
+    }
+    #PL_section_2 > div > span:nth-child(2){
+        width: 100%;
+        margin-top: 4vh;
+    }
+    #PL_section_3_dlBttn {
+        padding:  1em 1em;
+    }
+    #PL_section_3_dlBttn > img{
+        display: none;
+    }
+
+}
+
+
+
+
+@media (max-width:768px) {
+
+    /* Change layout of main title */
+
+    #PL_landing_sec1_p1 > h1{
+        flex-direction: row;
+    }
+    #PL_landing_sec1_p1{
+        width: 100%;
+    }
+    #PL_landing_sec1_p1 > h1{
+        text-align: center;
+    }
+
+    /* ================================================ */
+
+    /* Section 2 */
+    #PL_section_2 > div > span:nth-child(2){
+        flex-direction: column;
+    }
+
+      /* ================================================ */
+
+    /* Section 3 */
+    #PL_section_3 > div >span:nth-child(1){
+        width: 100%;
+        align-items: center;
+       
+    }
+    
+    #PL_section_3 > div >span > p{
+        width: 100%;
+        
+    }
+    #PL_section_3 > div >span:nth-child(2){
+        display: none;
+    }
+    
+
+}

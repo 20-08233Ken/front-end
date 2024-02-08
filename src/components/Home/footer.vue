@@ -2,26 +2,24 @@
     <div class="w-100 d-flex" style="background-color: #F5F5F5;">
         <h1 
             class="w-50 text-white" 
-            style="padding:  1rem 0 0 6rem; background-color: #D00412; clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);">
+            style="padding:  3rem 0 0 6vw; background-color: #D00412; clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);    font-size: clamp(18px,5vw,40px);">
             University Dataset
         </h1>
     </div>
     <section 
-            class="w-100 d-flex align-center pb-16"
-            style="background-color: #D00412"
+           
+            id ="footer_container"
+
         >
-                <div 
-                    class="d-flex w-50 " 
-                    style="margin:3rem 0 0 6rem;;
-                ">
+                <div>
                   <!-- Card 1 -->  
-                    <v-card class="w-50 w-50" style="border-radius: 10px; border:1px solid white;">
+                    <v-card id ="card_1"  style="border-radius: 10px; border:1px solid white;">
                         <h3 
                             class="w-100 d-flex align-center justify-space-evenly text-white py-4"
                             style="background-color: #94080D;">
                             <img 
-                                src="../../../assets/img/qs-stars.png  " 
-                                style="width: 20%;height: auto;"
+                                src="../../assets/img/qs-stars.png"
+                                style="width: 18%;height: auto;"
                                 alt="" srcset="">
                             <p>QR Stars Data Criteria</p>
                         </h3>
@@ -83,12 +81,12 @@
 
 
                     <!-- Card 2 -->  
-                    <v-card class="w-50 w-50 mx-8" style="border-radius: 10px; border:1px solid white;">
+                    <v-card id ="card_1"  style="border-radius: 10px; border:1px solid white;">
                         <h3 
                             class="w-100 d-flex align-center justify-space-evenly text-white py-4"
                             style="background-color: #94080D;">
                             <img 
-                                src="../../../assets/img/qs-stars.png  " 
+                                src="../../assets/img/qs-stars.png"
                                 style="width: 20%;height: auto;"
                                 alt="" srcset="">
                             <p>QR Stars Data Criteria</p>
@@ -151,10 +149,7 @@
 
                 </div>
 
-                <v-card 
-                    class="w-50 d-flex flex-column align-center"
-                    style="background-color: #D00412;"
-                >
+                <v-card id="card_3">
                     <h1 class="w-75 text-white">Data Documentation</h1>
                     <p  class="w-75 text-white">per Offices</p>
 
@@ -187,6 +182,71 @@
         border: 1px solid white;
         border-radius: 10px;
         margin-top: 10px;
+    }
+
+    #footer_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #D00412;  
+    }
+
+    #footer_container > div:first-child{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        background-color: #D00412; 
+        margin-top: 8vh; 
+        gap: 3em;
+        margin-left: 5vw;
+    }
+
+    #card_3{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #D00412
+    }
+    li{
+        font-size: clamp(10px,2vw,14px);
+    }
+    h4{
+        font-size: clamp(14px,3vw,18px);
+    }
+
+
+    @media (max-width:1024px){
+        #footer_container{
+            flex-direction: column;
+
+        }
+        #card_1{
+            width: 50%;
+        }
+        #card_3{
+        width:100%;
+        margin-top: 8vh;
+
+    }
+
+        #footer_container > div:first-child{
+        width: 90%;
+
+        }
+    }
+
+    @media (max-width:768px){
+        #footer_container > div:first-child{
+            flex-direction: column;
+            gap: 4em;
+            width: 100%;
+        }
+
+        #card_1{
+            width: 80%;
+        }
+
     }
 
 </style>

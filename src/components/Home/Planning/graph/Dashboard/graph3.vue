@@ -205,7 +205,7 @@ const labelOption = {
 
     height: 65vh;
     width: 80%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     
    
   }

@@ -10,6 +10,7 @@
     import Research from './graph/Dashboard/research.vue';
     import Research2 from './graph/Dashboard/research2.vue';
     import Footer from '../footer.vue'
+    import Financial from './graph/Dashboard/financial.vue';
 </script>
 
 <template>
@@ -284,6 +285,21 @@
             </div>
     </section>
 
+    <section
+        class="w-100 d-flex flex-column align-center"
+        style="padding: 4rem 3rem 5rem 6rem;"
+    >
+            <h1 
+                class="w-100 text-red-darken-4"  
+            >
+                Financial Status
+            </h1>
+
+            <div class="w-75 d-flex justify-center">
+                    <Financial/>
+            </div>
+
+    </section>
         <Footer/>
 
 </div>
