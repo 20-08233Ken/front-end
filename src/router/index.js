@@ -13,9 +13,11 @@ import Form5 from '../components/Home/Form/Form5.vue'
 import Form6 from '../components/Home/Form/Form6.vue'
 import Form7 from '../components/Home/Form/Form7.vue'
 import Login from "../views/Login.vue"
-
+import PBB from '../components/Home/Planning/PBB.vue'
+import Dataset from '../components/Home/Planning/Dataset.vue'
+import Offices from '../components/Home/Planning/Offices.vue'
 import PlanningDashboard from "../components/Home/Planning/Dashboard.vue"
-
+import Landing from '../components/Home/Planning/Landing.vue'
 const router = createRouter ({
 
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,12 +31,34 @@ const router = createRouter ({
         }
         ,
         {
+            path:'/landing',
+            name:'landing',
+            component:Landing
+
+        }
+        ,
+        {
             path:'/dashboard',
             name:'dashboard',
             component:PlanningDashboard
 
         }
         ,
+        {
+            path:'/dataset',
+            name:'dataset',
+            component:Dataset
+        },
+        {
+            path:'/pbb',
+            name:'pbb',
+            component:PBB
+        },
+        {
+            path:'/offices',
+            name:'offices',
+            component:Offices
+        },
         {
             path:'/form1',
             name:'form1',
