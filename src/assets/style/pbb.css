@@ -1,0 +1,100 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header{
+    display: flex;
+    padding: 4vw 6vw 3vw 6vw;
+   
+}
+
+        header > div{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        header > div:nth-child(2){
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+
+            gap: .2vw;
+        }
+        header > div:nth-child(2) > button{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 22%;
+            background-color: #B71C1C;
+            height: 2.5rem;
+            color: white;
+            border-radius: 10px 10px 0 0;
+            font-family: Inter-Regular;
+            font-size: 14px;
+        }
+
+
+#pbb_sec1{
+    display: flex;
+    width: 100%;
+   
+
+}
+        aside{
+            width: 35%;
+            padding: 0% 6vw;
+        }
+
+        .pbb_sideTitle{
+            background-color: #B71C1C;
+            color: white;
+            font-family: Inter-Regular;
+            padding: .2vw 1vw;
+            margin-top: 1vw;
+            font-size: 14px;
+        }
+
+        aside > ul {
+            list-style-type: none;
+            margin-left: 1vw;
+        }
+
+        aside > ul > li{
+           
+            padding: .2vw .5vw;
+            margin-top: .2vw;
+            font-size: 14px;
+        
+        }
+
+        aside > ul > li:hover{
+            background-color: #FFCDCF;
+        }
+
+        #pbb_sec1 > div:nth-child(2){
+            width: 65%;
+            ;
+        }
+
+#indicator_btnCont{
+    width: 95%;
+    align-self: flex-end;
+    display: flex;
+    gap: 1vw;
+  
+    margin: 1vw 0 1vw 3vw;
+}
+
+        #indicator_btnCont > button{
+               padding: .4vw 1vw;
+               border-radius: 5;
+               width: 20%;
+               background-color: white;
+               font-family: Inter-Bold;
+               font-size: 15px;
+        }
+

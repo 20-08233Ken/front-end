@@ -3,6 +3,7 @@
     import Graph2 from './graph/graph2.vue';
     import Graph3 from './graph/graph3.vue';
     import Footer from '../footer.vue';
+    import Header from '../header.vue';
 </script>
 
 <style scoped>
@@ -11,8 +12,10 @@
 </style>
 
 <template>
+    <Header/>
     <div id ="PL_landing_main">
-
+        
+        
         <section id ="PL_landing_sec1">
 
             <!-- Sub Container 1 -->

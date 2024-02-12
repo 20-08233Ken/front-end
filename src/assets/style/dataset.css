@@ -1,0 +1,93 @@
+#PL_dataset_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#PL_dataset_submain{
+    display: flex;
+    width: 100%;
+    padding: 4vw 6vw;
+}
+
+#PL_dataset_submain > span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+        #PL_dataset_span1 > h1{
+            width: 100%;
+            font: normal 40px Inter-Bold;
+            color: #B71C1C;
+        }
+
+        #PL_dataset_span1 > p{
+            width: 70%;
+            align-self: flex-start;
+            color: #B71C1C;
+            font: normal 16px Inter-Regular;
+            margin-top: .2vw;
+            
+        }
+        
+#PL_dataset_card1 {
+        width: 80%;
+        padding: 2vw 3vw; 
+        border-radius: 15px;    
+        margin-top: 3vw;      
+}
+
+            #PL_dataset_card1 > ul{
+                margin: 1.2vw 0 0 1.5vw;
+            }
+            #PL_dataset_card1 > ul > li{
+                margin-top: .2vw;
+                width: 90%;
+            }
+
+
+#PL_dataset_span2 > div:first-child{
+    display: flex;
+    gap: 2vw;
+    width:75%;
+    align-items: center;
+    background-color: white; 
+    padding-right: 1vw;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    align-self: flex-end;
+    margin-top: 1vw;
+}
+
+#PL_dataset_span2 > div:first-child > *{
+    /* border: 1px solid red; */
+}
+
+#PL_dataset_card2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4.4vw;
+    background-color: red;
+    background-color: #F5F5F5;
+}
+            #gsearch{
+                align-self: flex-end;
+                background-color: white;
+                width: 90%;
+                padding: .5vw 1vw;
+                border-radius: 10px;
+                
+            }
+
+            .PL_dataset_list{
+                border: 1px solid #B71C1C ;
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: .5vw;
+                color: #B71C1C;
+                background-color: #F5F5F5;
+            }

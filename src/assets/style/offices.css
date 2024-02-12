@@ -1,0 +1,192 @@
+#PL_offices_main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#PL_offices_sec1{
+    width: 100%;
+    display: flex;
+    padding: 4vw 6vw;
+}
+
+        #PL_offices_sec1 > span{
+            /* border: 1px solid red; */
+            width: 50%;        
+        }
+
+        #PL_offices_sec1 > span > h1{
+            width: 100%;
+            font: normal 40px Inter-Bold;
+            color: #B71C1C;
+        }
+
+        
+        #PL_offices_sec1 > span > p{
+            width: 100%;
+            font: normal 16px Inter-Regular;
+            color: #B71C1C;
+        }
+
+        #PL_offices_sec1_search{
+            display: flex;
+            border: 1px solid darkgrey;
+            width: 90%;
+            align-items: center;
+            gap: 1vw;
+            border-radius: 10px;
+            margin-top: 2vw;
+        }
+
+        #PL_offices_sec1_search > input{
+            width: 91%;
+            padding: .5vw 1vw;
+            
+        }
+
+
+#PL_offices_sec2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 6vw;
+}
+
+        #PL_offices_sec2 > h2{
+            color: #B71C1C;
+            font: normal 30px Inter-Bold;
+        }
+        #PL_offices_sec2 > p{
+            color: #B71C1C;
+            font: normal 16 Inter-Regular;
+            margin-top: .2vw;
+        }
+        #PL_offices_sec2 > div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1vw;
+            width: 100%;
+            margin-top: 2vw;
+        }
+
+        .PL_offices_card1{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            padding: 1.3vw 1vw;
+            gap: 1vw;
+            /* border-radius: 1rem; */
+            background-color: #EC061D;
+            color: white;
+        }
+        .PL_offices_card1 > h3{
+            text-align: center;
+            width: 29%;
+            font: normal 30px Inter-Bold;
+           
+        }
+
+        .PL_offices_card1 > p{        
+            width: 100%;
+            font: normal 16px Inter-Regular;    
+        }
+        
+#PL_offices_sec3,
+#PL_offices_sec4,
+#PL_offices_sec5,
+#PL_offices_sec6,
+#PL_offices_sec7
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 6vw ;
+   
+}
+
+        #PL_offices_sec3 > div:first-child,
+        #PL_offices_sec4 > div:first-child,
+        #PL_offices_sec5 > div:first-child,
+        #PL_offices_sec6 > div:first-child,
+        #PL_offices_sec7 > div:first-child
+        {
+            display: flex;
+            /* flex-wrap: wrap; */
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+                #PL_offices_sec3 > div >span,
+                #PL_offices_sec4 > div >span,
+                #PL_offices_sec6 > div >span,
+                #PL_offices_sec7 > div >span
+                {
+                    display: flex;
+                    gap: 1vw;
+                    width: 40%;
+                    height: .1vh;
+                    background-color: black;
+                }
+
+                #PL_offices_sec5 > div >span
+                {
+                    display: flex;
+                    gap: 1vw;
+                    width: 40%; 
+                    height: .1vh;
+                    background-color: black;
+                }
+                #PL_offices_sec3 > div >h5,
+                #PL_offices_sec4 > div >h5
+                
+                {
+                    width: 20%;
+                    text-align: center;
+                    color: #B71C1C;
+                    font: normal 16px Inter-Regular;
+                }
+
+                #PL_offices_sec5 > div >h5,
+                #PL_offices_sec6 > div >h5,
+                #PL_offices_sec7 > div >h5
+                {
+                    width: 35%;
+                    text-align: center;
+                    color: #B71C1C;
+                    font: normal 16px Inter-Regular;
+                }
+
+
+        #PL_offices_sec3 > div:nth-child(2),
+        #PL_offices_sec4 > div:nth-child(2),
+        #PL_offices_sec5 > div:nth-child(2),
+        #PL_offices_sec6 > div:nth-child(2),
+        #PL_offices_sec7 > div:nth-child(2)
+        {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 1vw;
+                margin-top: 2vw;
+                    /* justify-content: center; */
+        }
+
+                .PL_offices_card2,
+                .PL_offices_card3,
+                .PL_offices_card4,
+                .PL_offices_card5,
+                .PL_offices_card6
+                {
+                    display:flex;
+                    align-items: center;
+                    width: 19%;
+                    height: 4vw;
+                    padding: 0 2vw;
+                    border-radius: 10px;
+                    background-color: #B71C1C;
+                    color: white;
+                    justify-content: center ;
+                    text-align: center;
+                }

@@ -1,5 +1,5 @@
 <template>
-        <div>
+        <div >
             <v-toolbar class=" w-100 d-flex bg-red-darken-3 pa-2 w-100 py-3">
                         <v-btn class="ml-10">
                             <v-icon icon="mdi-menu"/>
@@ -16,11 +16,11 @@
                         
                         <span class="w-100 " id ="nav-list">
                             <ul class="w-50 mx-10 d-flex justify-space-around text-subtitle-1"  style="list-style-type: none;">
-                                <li class="py-3">Profile</li>
+                                <li class="py-3" ><router-link to ="/landing"  style="text-decoration: none; color: white"> Profile</router-link></li>
                                 <li> <router-link to ="/dashboard"  style="text-decoration: none; color: white"> Dashboard </router-link></li>
-                                <li>Dataset</li>
-                                <li>PBB</li>
-                                <li>Offices</li>
+                                <li><router-link to ="/dataset"  style="text-decoration: none; color: white">Dataset </router-link></li>
+                                <li><router-link to ="/pbb"  style="text-decoration: none; color: white">PBB</router-link></li>
+                                <li><router-link to ="/offices"  style="text-decoration: none; color: white">Offices</router-link></li>
                                 
                             </ul>
                         </span>

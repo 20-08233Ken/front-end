@@ -14,7 +14,7 @@
 <template>
     <div id = "home-main">
         <Header></Header>
-        <PlanningLanding/>
+        <Landing/>
 
             </div>
     

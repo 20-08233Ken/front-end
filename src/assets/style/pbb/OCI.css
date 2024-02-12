@@ -1,0 +1,111 @@
+#advEd_cont{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items:flex-start;
+    gap: 1rem;
+    padding-bottom: 10vw;
+   
+}
+#advEd_btnCont{
+    width: 95%;
+    align-self: flex-end;
+    display: flex;
+    gap: 1vw;
+}
+
+        #advEd_btnCont > button{
+               padding: .4vw 1vw;
+               border-radius: 5;
+               width: 20%;
+               background-color: white;
+               font-family: Inter-Bold;
+        }
+#advEd_card1{
+    align-self: flex-end;
+
+    width: 95%;
+}
+
+            #advEd_card1_div1,
+            #advEd_card1_div2,
+            #advEd_card1_div3
+            {
+                width: 100%;
+                padding: 3vw 4vw;
+            }
+            #advEd_card1_div2{
+                margin-top: 4vw;
+                background-color: aliceblue;
+            }
+            #advEd_card1_div1 > span:first-child,
+            #advEd_card1_div2> span:first-child,
+            #advEd_card1_div3> span:first-child
+            {
+                display: flex;
+                align-items: center; 
+            
+            }
+
+                    #advEd_card1_div1 > span:first-child > p:nth-child(2),
+                    #advEd_card1_div2 > span:first-child > p:nth-child(2),
+                    #advEd_card1_div3 > span:first-child > p:nth-child(2)
+                    {
+                        width: 70%;
+                        margin-left: 1vw;
+                        font-family: Inter-Regular;
+                        font-size: 16px;
+                    }
+
+                    /* #advEd_card1_div1 >  span:first-child  > p:nth-child(3),
+                    #advEd_card1_div2 >  span:first-child  > p:nth-child(3),
+                    #advEd_card1_div3 >  span:first-child  > p:nth-child(3), */
+                    #dataEntry
+                    {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #B71C1C;
+                        border-radius: 20px;
+                        color: white;
+                        padding: .4vw 1vw;
+                        font-size: 14px;
+                        width: 70%;
+                        margin-left: 4vw; 
+                        font-family: Inter-Regular;
+                        font-size: 14px;
+                    }
+
+            #advEd_card1_div1 >  ol,
+            #advEd_card1_div2 >  ol,
+            #advEd_card1_div3 >  ol
+            {
+                margin: 1vw 0 .5vw 5vw;
+                font-family: Inter-Regular;
+                
+                
+            }
+            #advEd_card1_div3 >  ol > li{
+                margin-top: .2vw;
+                font-family: Inter-Regular;
+              
+            }
+
+            #advEd_card1_div1 > h4,
+            #advEd_card1_div2 > p,
+            #advEd_card1_div3 > p
+            {
+                margin-left: 6vw;
+                font-family: Inter-Regular;
+                
+            }
+
+#advEd_submitBtn{
+        background-color: #B71C1C;
+        color: white;
+        width: 20%;
+        align-self: flex-end;
+        padding: .5vw 1vw;
+        border-radius: 10px;
+        margin-top: 2rem;
+}
